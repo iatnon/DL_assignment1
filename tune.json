@@ -1,0 +1,205 @@
+{
+  "splits": [
+    582,
+    790
+  ],
+  "runs": [
+    {
+      "lookback": 40,
+      "split": 582,
+      "cell": "gru",
+      "mse": 4460.77,
+      "mae": 51.52,
+      "seconds": 76.6
+    },
+    {
+      "lookback": 40,
+      "split": 582,
+      "cell": "lstm",
+      "mse": 3333.93,
+      "mae": 44.85,
+      "seconds": 260.3
+    },
+    {
+      "lookback": 40,
+      "split": 790,
+      "cell": "gru",
+      "mse": 2506.64,
+      "mae": 35.04,
+      "seconds": 98.8
+    },
+    {
+      "lookback": 40,
+      "split": 790,
+      "cell": "lstm",
+      "mse": 3032.78,
+      "mae": 37.03,
+      "seconds": 356.4
+    },
+    {
+      "lookback": 50,
+      "split": 582,
+      "cell": "gru",
+      "mse": 3347.34,
+      "mae": 45.56,
+      "seconds": 96.8
+    },
+    {
+      "lookback": 50,
+      "split": 582,
+      "cell": "lstm",
+      "mse": 3173.1,
+      "mae": 43.42,
+      "seconds": 336.9
+    },
+    {
+      "lookback": 50,
+      "split": 790,
+      "cell": "gru",
+      "mse": 3165.41,
+      "mae": 38.95,
+      "seconds": 137.3
+    },
+    {
+      "lookback": 50,
+      "split": 790,
+      "cell": "lstm",
+      "mse": 2743.46,
+      "mae": 34.47,
+      "seconds": 453.6
+    },
+    {
+      "lookback": 60,
+      "split": 582,
+      "cell": "gru",
+      "mse": 3274.51,
+      "mae": 42.61,
+      "seconds": 120.3
+    },
+    {
+      "lookback": 60,
+      "split": 582,
+      "cell": "lstm",
+      "mse": 1552.52,
+      "mae": 27.77,
+      "seconds": 387.4
+    },
+    {
+      "lookback": 60,
+      "split": 790,
+      "cell": "gru",
+      "mse": 2512.65,
+      "mae": 35.01,
+      "seconds": 155.5
+    },
+    {
+      "lookback": 60,
+      "split": 790,
+      "cell": "lstm",
+      "mse": 2600.73,
+      "mae": 33.54,
+      "seconds": 532.8
+    },
+    {
+      "lookback": 70,
+      "split": 582,
+      "cell": "gru",
+      "mse": 4197.59,
+      "mae": 49.41,
+      "seconds": 140.0
+    },
+    {
+      "lookback": 70,
+      "split": 582,
+      "cell": "lstm",
+      "mse": 4080.1721960769373,
+      "mae": 49.51236374855041,
+      "seconds": 405.08578062057495
+    },
+    {
+      "lookback": 70,
+      "split": 790,
+      "cell": "gru",
+      "mse": 1371.8758966545918,
+      "mae": 24.85267334461212,
+      "seconds": 161.7269115447998
+    },
+    {
+      "lookback": 70,
+      "split": 790,
+      "cell": "lstm",
+      "mse": 21.197837592295173,
+      "mae": 3.30983603477478,
+      "seconds": 554.0448751449585
+    },
+    {
+      "lookback": 80,
+      "split": 582,
+      "cell": "gru",
+      "mse": 3724.877353258006,
+      "mae": 46.422322328090665,
+      "seconds": 134.904141664505
+    },
+    {
+      "lookback": 80,
+      "split": 582,
+      "cell": "lstm",
+      "mse": 3202.16687343433,
+      "mae": 43.860164901018145,
+      "seconds": 430.369811296463
+    },
+    {
+      "lookback": 80,
+      "split": 790,
+      "cell": "gru",
+      "mse": 482.25743155166003,
+      "mae": 14.87109899520874,
+      "seconds": 174.8431532382965
+    },
+    {
+      "lookback": 80,
+      "split": 790,
+      "cell": "lstm",
+      "mse": 2305.732539026117,
+      "mae": 30.858434162139893,
+      "seconds": 622.2330665588379
+    }
+  ],
+  "summary": [
+    {
+      "lookback": 40,
+      "mean_mse": 3333.53,
+      "mean_mae": 42.11,
+      "std_mse": 714.9943727400938,
+      "std_mae": 6.5545213402658185
+    },
+    {
+      "lookback": 50,
+      "mean_mse": 3107.3275000000003,
+      "mean_mae": 40.6,
+      "std_mse": 222.32023989900244,
+      "std_mae": 4.267710158855684
+    },
+    {
+      "lookback": 60,
+      "mean_mse": 2485.1025,
+      "mean_mae": 34.732499999999995,
+      "std_mse": 613.8002329494101,
+      "std_mae": 5.2922224773718645
+    },
+    {
+      "lookback": 70,
+      "mean_mse": 2417.708982580956,
+      "mean_mae": 31.771218281984325,
+      "std_mse": 1786.6723877133406,
+      "std_mae": 19.260006531890607
+    },
+    {
+      "lookback": 80,
+      "mean_mse": 2428.7585493175284,
+      "mean_mae": 34.00300509661436,
+      "std_mse": 1233.0943182106196,
+      "std_mae": 12.52319046150522
+    }
+  ]
+}
